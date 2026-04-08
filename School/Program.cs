@@ -9,9 +9,9 @@
 // 7. Klasėje Person aprašykite virtualų metodą GetContactInfo(), kuris grąžina Email. Perrašykite jį Staff klasėje — grąžinkite Email ir Department;
 // 8. Klasėje Student aprašykite virtualų metodą GetAcademicStanding(), kuris pagal GPA reikšmę grąžina "Dean's List", "Good Standing", "Satisfactory" arba "Academic Probation";
 // 9. Aprašykite klasę UndergraduateStudent, kuri paveldi Student. Pridėkite Major, Minor ir TotalCredits properties. Perrašykite GetRole() ir GetProfile() metodus;
-
 // 10. Klasėje UndergraduateStudent perrašykite GetAcademicStanding() metodą — papildomai prie GPA įvertinimo pridėkite kurso pavadinimą ("Freshman", "Sophomore", "Junior", "Senior") pagal TotalCredits reikšmę;
 // 11. Aprašykite klasę GraduateStudent, kuri paveldi Student. Pridėkite ThesisTitle, Supervisor ir ThesisSubmitted properties. Perrašykite GetRole(), GetProfile() ir GetAcademicStanding() metodus — magistrantams naudokite griežtesnius GPA kriterijus: "Distinction", "Merit", "Pass", "At Risk";
+
 // 12. Aprašykite klasę Teacher, kuri paveldi Staff. Pridėkite SubjectArea, CoursesTaught (sąrašas) ir TeachingRating properties. Perrašykite GetRole() ir GetProfile() metodus;
 // 13. Klasėje Staff aprašykite virtualų metodą CalculateAnnualBonus(), kuris grąžina decimal. Bazinis bonusas — 5% atlyginimo už kiekvierius 5 metus darbo stažo. Perrašykite jį Teacher klasėje — aukštą reitingą (>= 4.5) turintys dėstytojai gauna papildomą 10% bonusą;
 // 14. Aprašykite klasę HeadOfDepartment, kuri paveldi Teacher. Pridėkite TeamSize ir DepartmentVision properties. Perrašykite GetRole(), GetProfile(), GetContactInfo() ir CalculateAnnualBonus() metodus — vadovai gauna papildomą 15% lyderystės bonusą;
