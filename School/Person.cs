@@ -8,4 +8,9 @@ public abstract class Person
 
     public abstract string GetRole();
     public abstract string GetProfile();
+
+    public virtual string GetContactInfo()
+    {
+        return Email;   
+    }
 }

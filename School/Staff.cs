@@ -16,4 +16,8 @@ public class Staff : Person
         $"EmployeeId: {EmployeeId}, Department: {Department}, Salary: {Salary}, HireDate: {HireDate}";
     }
 
+    public override string GetContactInfo()
+    {
+        return $"Email: {Email}, $Department: {Department}";
+    }
 }
